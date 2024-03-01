@@ -31,7 +31,8 @@ const About = () => {
               }
             >
               Currently pursuing my B.S., I bring a combination of academic excellence and practical experience from internships with companies 
-              like o9 Solutions and Uber. At o9 Solutions, I engineered a generative AI conversational bot, while at Uber, I spearheaded the development of a Transaction Analyzer for the Marketplace Team. My academic journey includes optimizing the MUSIC algorithm for heart rate calculation and contributing to full-stack and back-end projects.
+              like o9 Solutions and Uber. At o9 Solutions, I engineered a generative AI conversational bot, while at Uber, I spearheaded the development of a Transaction Analyzer 
+              for the Marketplace Team. My academic journey includes optimizing the MUSIC algorithm for heart rate calculation and contributing to full-stack and back-end projects.
             </p>
           </motion.div>
           <motion.div
