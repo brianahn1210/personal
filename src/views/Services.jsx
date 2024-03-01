@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { serviceData } from "../constants";
+import { ExperienceData } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 
@@ -23,14 +23,14 @@ const Services = () => {
               : "text-5xl font-bold px-4 md:px-0 text-center text-white"
           }
         >
-          Services
+          Experience
         </h2>
         <div className="">
           <h4 className="mt-16 text-3xl font-semibold text-blue-500">
-            What I Provide
+            My previous experince:
           </h4>
           <div className="mt-8 flex md:flex-row justify-between flex-col md:items-stretch items-center ">
-            {serviceData.map((el) => (
+            {ExperienceData.map((el) => (
               <motion.div
                 initial="hidden"
                 whileInView={"visible"}
@@ -44,6 +44,12 @@ const Services = () => {
                     : "md:w-96 p-4 bg-gray-100 rounded-lg flex items-center flex-col mt-8"
                 }
               >
+                <img
+                  src={el.image}  // Assuming the image source is stored in the 'image' property
+                  alt={el.alt}    // Assuming there's an 'alt' property for accessibility
+                  style={{ width: "100%", height: "auto" , objectFit: "contain",  // or "contain" based on your preference
+                  objectPosition: "center bottom"}}
+                />
                 <img src={el.img} alt="" />
                 <h4 className="text-xl font-bold mt-4">{el.name}</h4>
                 <p className="text-lg mt-2 text-justify">{el.desc}</p>
