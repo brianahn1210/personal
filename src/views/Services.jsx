@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ExperienceData } from "../constants";
 import { ThemeContext } from "../themeProvider";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion/dist/framer-motion";
 
 const Services = () => {
   const theme = useContext(ThemeContext);
