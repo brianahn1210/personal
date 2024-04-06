@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
-import { motion } from "framer-motion/dist/framer-motion";
+import { motion } from "framer-motion";
 
 const About = () => {
   const theme = useContext(ThemeContext);
