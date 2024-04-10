@@ -109,15 +109,17 @@ const Contact = () => {
             </a> */}
             <h1 className="text-3xl font-bold">Email</h1>
             <a
-              href="hello"
+              href="https://mail.google.com/mail/u/0/?fs=1&to=brianahn@utexas.edu&tf=cm"
               className="mb-12 mt-4 font-semibold text-blue-700 block"
+              target = "_blank"
             >
               brianahn@utexas.com
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
-              href="hello"
+              href="https://www.google.com/maps/place/Austin,+TX/"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block"
+              target = "_blank"
             >
               Austin, Texas
               <br />
