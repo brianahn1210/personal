@@ -52,7 +52,7 @@ const About = () => {
               websites for smartphones, tablets, and desktops.
             </p>
           </motion.div>
-          <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">
+          <motion.div className="flex flex-wrap mt-8 flex flex-wrap  ">
             {techStack.map((el, index) => (
               <motion.div
                 initial="hidden"
