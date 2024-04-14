@@ -17,7 +17,6 @@ function App() {
   return (
     <ThemeProvider>
       <>
-      <a href="views\Brian_Ahn_Resume_1.pdf">here</a>
 
         {!loading ? (
           <div >
