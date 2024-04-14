@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
+import resume from "../assets/Brian_Ahn_Resume_1.pdf";
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -63,9 +64,10 @@ const Home = () => {
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <a href="../assets/Brian_Ahn_Resume_1.pdf" target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                <a href={resume} target="_blank" rel="noopener noreferrer" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
                   resume
                 </a>
+                
               </div>
             </div>
           </div>
