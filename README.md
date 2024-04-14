@@ -1,2 +1,3 @@
-Personal Website for Brian Ahn
-brian-ahn.com
+Personal Website by Brian Ahn 
+
+[brian-ahn.com](https://brian-ahn.com/)
