@@ -49,7 +49,12 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I'm a junior majoring in Computer Engineering at The University of Texas at Austin. My track is in Software Engineering and I worked at Flatiron Health, Uber, and o9 Solutions as a software engineer.
+              I'm a junior majoring in Computer Engineering at 
+              <span class="font-bold text-blue-500"> The University of Texas at Austin</span>. 
+              I am actively seeking a Full-Time role beginning in Fall 2025 in 
+              <span class="font-bold text-blue-500"> software development</span>. 
+              My innovative mind is nurtured from my experiences at 3 research labratories and 3 industry experiences. 
+              I look forward to working with and learning alongside amazing engineers and programmers!
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
