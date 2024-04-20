@@ -27,7 +27,7 @@ const Services = () => {
         </h2>
         <div className="">
           <h4 className="mt-16 text-3xl font-semibold text-blue-500">
-            My previous experince:
+            My previous experience:
           </h4>
           <div className="mt-8 flex md:flex-row justify-between flex-col md:items-stretch items-center ">
             {ExperienceData.map((el) => (
